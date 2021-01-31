@@ -12,6 +12,8 @@ let petalPath = "M 0,0 C -10, -10 -10, -40 0, -50 C 10, -40 10, -10, 0,0";
 // <svg width="50" height="50" fill="red"><path transform="translate(25,50)"d="${petalPath}"></svg>
 // `;
 
+
+
 // --- FUNCTIONS ---
 function loadData() {
   const data = d3.csv("data/FakeData.csv", type).then((res) => {
